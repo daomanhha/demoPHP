@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.container .row:nth-child(2){
+	margin-top: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	left: -6px;
+}
+.container button{
+	position: relative;
+	left: 85px;
+}
+.result{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.result img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
